@@ -1,6 +1,7 @@
 # ART
 ro.vendor.qti.am.reschedule_service=true
 ro.sys.fw.dex2oat_thread_count=8
+ro.launcher.blur.appLaunch=0
 
 # Audio
 audio.safemedia.bypass=true
@@ -53,7 +54,7 @@ sdm.debug.disable_skip_validate=1
 debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
 ro.hwui.render_ahead=23
-ro.config.avoid_gfx_accel=true
+ro.config.avoid_gfx_accel=false
 
 # DPM
 persist.vendor.dpm.loglevel=0
