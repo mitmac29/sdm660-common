@@ -2,6 +2,8 @@
 ro.vendor.qti.am.reschedule_service=true
 ro.sys.fw.dex2oat_thread_count=8
 ro.launcher.blur.appLaunch=0
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
 
 # Audio
 audio.safemedia.bypass=true
