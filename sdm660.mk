@@ -5,7 +5,9 @@
 #
 
 # Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
+# $(call inherit-product, hardware/dolby/dolby.mk)
+
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
